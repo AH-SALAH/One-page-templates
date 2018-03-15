@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<head>
+<title>course task 1</title>
+
+<style type="text/css">
+	
+	/*reset/normalize*/
+*{padding: 0; margin: 0;font-size: 35px;font-family: sans-serif; text-align: center;color: #fff;}
+
+.container{
+	width: 1200px;
+	height: auto;
+/*	padding: 0 10px 0 10px;
+*/	margin: 0 auto;
+}
+
+section{
+	padding: 0 0 5px 0;
+}
+
+
+/**********first section css*********/
+
+header{
+	background: silver;	
+	margin: 0 auto;
+	width: 100%;
+	height: 300px;
+
+}
+
+.nav{
+	width: 1200px;
+	height: 60px;
+	background:gray;
+	line-height: 1.5;
+}
+
+.section-1-boxes {
+    background: #fff none repeat scroll 0 0;
+    height: 240px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.section-1-boxes .box1,
+.section-1-boxes .box2,
+.section-1-boxes .box3{
+	float: left;
+	line-height: 7;
+}
+
+
+.section-1-boxes .box1{
+	width: 300px;
+	height: 100%;
+	background: slateblue;
+}
+.section-1-boxes .box2{
+	width: 300px;
+	height: 100%;
+	background: firebrick;
+}
+.section-1-boxes .box3{
+	width: 300px;
+	height: 100%;
+	background: mediumseagreen;
+}
+/*****************2nd section css*******************/
+.section-2{
+	background: goldenrod;
+	width: 100%;
+	height: 250px;
+}
+
+.section-2-boxes{
+	width: 900px;
+	height: 250px;
+	margin: 0 auto;
+}
+.section-2-boxes .box1{
+	width: 100%;
+	height: 35%;
+	background: darkslategrey;
+	line-height: 2;
+}
+.section-2-boxes .box2{
+	width: 100%;
+	height: 35%;
+	background: skyblue;
+	line-height: 2;
+}
+/*****************3rd section css*******************/
+.section-3{
+	background: darkgray;
+	width: 100%;
+	height: auto;
+}
+
+.section-3-boxes{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.section-3-boxes .box1{
+	width: 250px;
+	height: 75%;
+	background: darkslategrey;
+	float: left;
+	line-height: 8;
+}
+
+.section-3-boxes .box2{
+	width: 250px;
+	height: 75%;
+	background: darkslategrey;
+	float: right;
+	line-height: 8;
+}
+
+.section-3-boxes .box3{
+	width: 100%;
+	height: 25%;
+	background: darkslateblue;
+	clear: both;
+}
+
+.center-div{
+	margin: 0 auto;
+	width: 150px;
+	height: 100%;
+	background: firebrick;
+	font-size: 0.7em;
+	line-height: 2;
+}
+/*****************4th section css*******************/
+
+footer{
+	width: 100%;
+	height: 300px;
+	background: darkgray;
+}
+
+footer section {
+	width: 900px;
+	height: 75%;
+	margin: 0 auto;
+}
+
+footer section div{
+	width: 180px;
+	height: 100%;
+	float: left;
+	line-height: 7;
+}
+
+footer section .f-box1{
+	background: darkseagreen;
+}
+footer section .f-box2{
+	background: firebrick;
+}
+footer section .f-box3{
+	background: darkseagreen;
+}
+footer section .f-box4{
+	background: firebrick;
+}
+footer section .f-box5{
+	background: darkseagreen;
+}
+
+.cr-box{
+	width: 100%;
+	height: 25%;
+	background: #000;
+	line-height: 2;
+}
+
+</style>
+
+</head>
+
+<body>
+
+		<div class="container">
+			<div class="row">
+
+				<section>
+					<header>
+						<div class="nav">nav</div>
+						<p style="float:left;line-height: 6;text-indent: 18px;">margin:</p>
+						<p style="float:right;line-height: 6;padding-right: 15px;"> 0 auto;</p>
+							<div class="section-1-boxes">
+							<!-- section-1-boxes list of boxes every one 300px w -->
+								<div class="box1">float:left;</div>
+								<div class="box2">float:left;</div>
+								<div class="box3">float:left;</div>
+							
+							</div>
+					</header>
+				</section>
+				
+				<!-- ============================================================= -->
+				<section>
+					<div class="section-2">
+						<div class="section-2-boxes">
+						<!-- section-2-boxes list of boxes every one 900px w -->
+							<div class="box1">margin: 0 auto;</div>
+							<div class="box2">margin: 0 auto;</div>
+						
+						</div>
+					</div>
+				</section>
+				<!-- ============================================================= -->
+				<section>
+					<article>
+						<div class="section-3">
+							<div class="section-3-boxes">
+							<!-- section-3-boxes list of boxes  -->
+								<div class="box1">float:left;</div>
+								<div class="box2">float:right;</div>
+								<div class="box3">
+									<p style="float:left;line-height:3;padding-left:13%;height:100%;">clear:</p>
+									<p style="float:right;line-height:3;padding-right:13%;height:100%;">both;</p>
+									<div class="center-div">margin: 0 auto;</div>
+								</div>
+
+							</div>
+						</div>
+					</article>
+				</section>
+				<!-- ============================================================= -->
+				<footer>
+					<section>
+						<div class="f-box1">margin</div>
+						<div class="f-box2">:</div>
+						<div class="f-box3">0</div>
+						<div class="f-box4">auto</div>
+						<div class="f-box5">;</div>
+					</section>
+						<div class="cr-box">&copy;-box</div> <!-- 1200px w -->
+				</footer>
+
+
+			</div> <!-- /.row -->
+		</div>	<!-- /.container -->
+
+</body>
+</html>
